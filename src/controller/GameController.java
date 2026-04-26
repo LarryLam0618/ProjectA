@@ -162,6 +162,20 @@ public class GameController {
         }
     }
 
+    /**
+     * Trade a land from the current player to {@code target} at the given price.
+     * Matches the class-diagram signature; delegates to the TradeRequest-based
+     * implementation below.
+     */
+    public void handleTrade(LandSlot slot, int price, Player target) {
+        if (slot == null || target == null) {
+            view.showMessage("Invalid trade request.");
+            return;
+        }
+        Player seller = game.getCurrentPlayer();
+        handleTrade(GameView.TradeRequest.forSale(slot, seller, target, price));
+    }
+
     public void handleTrade(GameView.TradeRequest request) {
         if (request == null || request.getLand() == null || request.getSeller() == null || request.getBuyer() == null) {
             view.showMessage("Invalid trade request.");
