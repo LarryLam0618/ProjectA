@@ -1,0 +1,43 @@
+# land format: index,land,name,price,group
+# go format: index,go,name,bonus
+# action format: index,action,name
+0,go,GO,2000
+1,land,Sheung Wan,600,brown
+2,action,Community Chest
+3,land,Sai Ying Pun,700,brown
+4,action,Income Tax
+5,action,Railroad 1
+6,land,Wan Chai,800,lightblue
+7,action,Chance
+8,land,Causeway Bay,900,lightblue
+9,land,North Point,1000,lightblue
+10,action,Jail
+11,land,Quarry Bay,1100,pink
+12,action,Utility 1
+13,land,Taikoo,1200,pink
+14,land,Tsim Sha Tsui,1300,pink
+15,action,Railroad 2
+16,land,Jordan,1400,orange
+17,action,Community Chest
+18,land,Yau Ma Tei,1500,orange
+19,land,Mong Kok,1600,orange
+20,action,Free Parking
+21,land,Prince Edward,1700,red
+22,action,Chance
+23,land,Sham Shui Po,1800,red
+24,land,Kowloon Tong,1900,red
+25,action,Railroad 3
+26,land,Ho Man Tin,2000,yellow
+27,land,Hung Hom,2200,yellow
+28,action,Utility 2
+29,land,Whampoa,2400,yellow
+30,action,Go To Jail
+31,land,Tsuen Wan,2600,green
+32,land,Sha Tin,2800,green
+33,action,Community Chest
+34,land,Tseung Kwan O,3000,green
+35,action,Railroad 4
+36,action,Chance
+37,land,Discovery Bay,3200,blue
+38,action,Luxury Tax
+39,land,Repulse Bay,3500,blue
