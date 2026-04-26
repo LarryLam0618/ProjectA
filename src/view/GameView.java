@@ -1059,7 +1059,7 @@ public class GameView {
          * to the Monopoly-style colour used for that group's band.
          *
          * AI-assisted: colour palette and group-to-Color mapping drafted with AI.
-         * Reviewed and verified by [your name] on 2026-04-26.
+         * Reviewed and verified by Leung Laam Kwan on 2026-04-21.
          */
         private Color getGroupColor(String group) {
             if (group == null) {

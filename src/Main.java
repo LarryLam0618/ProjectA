@@ -8,7 +8,16 @@ import view.GameView;
 
 import java.io.InputStream;
 
+/**
+ *
+ * @author rnpk
+ */
 public class Main {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Player[] players = {
             new Player(1, "Player 1", 2000),
