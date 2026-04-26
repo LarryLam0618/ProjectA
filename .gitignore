@@ -1,4 +1,5 @@
 .DS_Store
 build/
-dist/
+dist/*
+!dist/javadoc/
 nbproject/private/
